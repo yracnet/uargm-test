@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "mi-app-dev",
+      "script": "D:/env/nvm/v16.20.2/yarn.ps1",
+      "args": "dev",
+      "watch": false,
+      "autorestart": true,
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 3000
+      },
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "time": true
+    }
+  ]
+}
